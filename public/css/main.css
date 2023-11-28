@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #eee;
+}
+
+body{
+  background: #eee;
+  font-family: "Poppins";
+}
+
+.btn{
+  background: #616161;
+  padding: .5rem;
+  color: white;
+  font-size: 12px;
+  border-radius: .3rem;
+  display: inline-block;
+}
+
+.btn-s{
+  background: #1376a4;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+table{
+  width: 100%;
+  margin: 1rem 0;
+}
+
+thead{
+  background: #dff;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  outline: none;
+  padding: 1rem;
+  border-radius: .4rem;
+  border:2px solid #649df2;
+}
+
+#login{
+  margin: 1rem;
+  height: 70svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#login .group{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#login span{
+  width: 2px;
+  border-radius: 12rem;
+  height: 100%;
+  background: #777;
+}
+
+#login label{
+  margin-top: 1rem;
+  transform: translateY(27px) translateX(10px);
+  z-index: 99;
+  font-size: 13px;
+}
+
+#login input{
+  padding-top: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#login button{
+  margin-top: 1rem;
+  border: none;
+  padding: 1rem;
+  background: #2675ec;
+  border-radius: .7rem;
+  color: white;
+}
+
+#login button:active{
+  outline: 2px solid blue;
+}
+
+header{
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #74aec9;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #11223a;
+  height: 52px;
+  padding: 1rem;
+  color: #fff;
+}
+
+nav div{
+  display: flex;
+  gap: 2rem;
+}
+
+article{
+  padding: 1rem;
+}
